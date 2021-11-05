@@ -191,7 +191,7 @@ abstract class AssetPickerBuilderDelegate<Asset, Path> {
     initialPermission,
   );
   final ValueNotifier<bool> permissionOverlayHidden =
-      ValueNotifier<bool>(false);
+      ValueNotifier<bool>(true);
 
   /// Whether the permission is limited currently.
   /// 当前的权限是否为受限
